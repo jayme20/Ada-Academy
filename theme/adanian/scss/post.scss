@@ -1,0 +1,136 @@
+
+
+body.pagelayout-login {
+    background-image: url([[pix:theme_adanian|loginbackgroundimage]]);
+    background-size: cover;
+  }
+  
+  .card,
+  nav.fixed-top.navbar.bg-white {
+    background-color: #ffffff !important;
+    color: #000;
+  }
+  
+  #nav-drawer {
+    background-color: #efefef;
+  }
+  
+  #nav-drawer .list-group li {
+    margin-bottom: 1em;
+  }
+  
+  #nav-drawer>ul>li {
+    background-color: #efefef;
+  }
+ 
+  
+  #nav-drawer .list-group ul {
+    list-style: none;
+    padding: 0;
+    padding-top: 1em;
+    padding-right: 1em;
+    padding-left: 1em;
+    margin: 0;
+    background-color: white;
+    border-radius: 12px;
+  }
+  
+  #page-wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef !important ;
+  }
+  
+  .card {
+    border: none;
+    border-radius: 12px;
+  }
+  
+  .dropdown-menu.show {
+    background-color: #ffffff !important;
+  }
+  
+  .btn.nav-link.float-sm-left.mr-1.btn-secondary,
+  .dropdown-item:hover, .dropdown-item:focus {
+    background-color: #efefef !important ;
+  }
+  .nav-link { padding: 0.3rem 0.5rem; }
+  .coursebox h3.coursename .dimmed { color: #EAAA00 !important; }
+  #page-footer.bg-dark {
+    background-color: rgba(#1c162c, 0.8) !important;
+  }
+  
+  .btn.nav-link.float-sm-left.mr-1.btn-secondary {
+    border-radius: 50% ;
+    border: 5px groove #EAAA00 ;
+  }
+  .popover-region-toggle.nav-link,
+  .dropdown-toggle.nav-link {
+    border: 0 none;
+  }
+  .nav-tabs li.nav-link {
+    border-radius: 0 !important;
+  }
+  .dropdown-menu a.dropdown-item.menu-action:first-child {display: none;}
+  
+  .list-group-item:hover, .list-group-item:hover {
+    background-color: #efefef;
+    color: black;
+  }
+  
+  .block_myoverview .row-fluid { border: 1px solid black ; }
+  
+  .dropdown-divider {
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    border-top: 0;
+  }
+  
+  .btn-secondary {
+    color: white;
+    background-color: #ffb300;
+    border-color: #ffb300;
+    border-radius: 8px;
+  }
+  
+  .list-group-item {
+    position: relative;
+    //padding: .75rem 1.25rem;
+    background-color: #fff;
+    border: none;
+  
+    display: block;
+    width: 100%;
+    height: 100%;
+    //background: #4E9CAF;
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    line-height: 25px;
+  }
+  
+  .list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color: #ffb300;
+    border-color: #ffb300;
+  }
+  
+  .media {
+    display: block;
+    padding-left: .5em;
+  }
+  
+  .media-body {
+    flex: 0;
+  }
+  .userpicture {
+    border-radius: 5px;
+  }
+.usertext {
+ color: #000;
+}
